@@ -29,7 +29,7 @@ Power BI automatically derives relationships, these relationships are adjusted t
 ---
 ![](adjusted_model.png)
 ---
-There are dimension tables and fact tables all connected to each other. The dimension tables are all joined to the fact tables with a one-to-many relationship. The model is a star schema.
+There are dimension tables and fact tables all connected to each other. The dimension tables are all joined to the fact tables with a one-to-many relationship. The model is a **Snow Flake schema**.
 ## Visualization
 The report comprises 6 items:
 1.	Sales Trend,
